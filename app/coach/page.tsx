@@ -120,9 +120,9 @@ export default function CoachPage() {
                     <ol className="list-decimal pl-5 text-gray-600 space-y-1">
                       <li>确保摄像头已连接并允许网站访问</li>
                       <li>站在摄像头前，确保全身可见</li>
-                      <li>点击"开始训练"按钮，等待AI教练初始化</li>
+                      <li>点击&quot;开始训练&quot;按钮，等待AI教练初始化</li>
                       <li>按照AI教练的语音和文字指导进行训练</li>
-                      <li>训练结束后，点击"结束训练"</li>
+                      <li>训练结束后，点击&quot;结束训练&quot;</li>
                     </ol>
                   </div>
                 </div>
@@ -144,7 +144,7 @@ export default function CoachPage() {
                         </svg>
                         <h3 className="text-lg font-medium mb-2">摄像头未启用</h3>
                         <p className="text-gray-400 mb-6">
-                          点击下方"开始训练"按钮启用摄像头，开始AI教练指导
+                          点击下方&quot;开始训练&quot;按钮启用摄像头，开始AI教练指导
                         </p>
                         <button 
                           onClick={startCoachSession}
